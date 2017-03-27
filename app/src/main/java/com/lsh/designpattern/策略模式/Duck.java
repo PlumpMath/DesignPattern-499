@@ -23,6 +23,11 @@ public abstract class Duck {
         mQuackBehavior.quack();
     }
 
+
+    public void setFlyBehavior(FlyBehavior flyBehavior) {
+        mFlyBehavior = flyBehavior;
+    }
+
     //所有的鸭子都会游泳
     public void swim() {
         System.out.println("所有的鸭子都会游泳");
